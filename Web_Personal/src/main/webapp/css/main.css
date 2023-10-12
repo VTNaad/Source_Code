@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@charset "UTF-8";
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: #f0f0f0; 
+            padding: 10px; 
+        }
+header img {
+    margin: 0 5px;
+}
+h1 { 
+    color: teal;
+}
+label {
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+.social-link {
+    font-size: 40px; 
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover {
+    color: #007acc;
+    transform: scale(1.2);
+}
+.homework {
+    display: block;
+    margin: 0 16px 16px;
+    width: 100%;
+
+}
+.exercise:hover .exercise{
+    background-color: #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+   
+}
+.exercise {
+    text-decoration: none;
+    color :#000;
+    border: 2px solid #000;
+    padding:  8px 12px;
+    border-radius: 6px;
+    display: block;
+}
+.info-value {
+    margin-left: 10px; 
+}
+.info-item {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.icon-contact{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.item-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img {
+	align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.information {
+	text-align: center;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.web {
+    display: flex;
+}
+.avt {
+	text-align: center;
+}
+.contact,
+.information,
+.homework {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin: 0 12px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s linear;
+}
+#submit {
+    margin-left: 0.5em; 
+}
